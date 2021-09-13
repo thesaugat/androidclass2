@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/box_shape.xml" value="0.3582222222222222" />
+        <entry key="app/src/main/res/drawable/card_shape.xml" value="0.3582222222222222" />
+        <entry key="app/src/main/res/drawable/gradient_box.xml" value="0.3582222222222222" />
+        <entry key="app/src/main/res/drawable/ic_at.xml" value="0.3489177489177489" />
+        <entry key="app/src/main/res/drawable/ic_barcode_scanner.xml" value="0.3582222222222222" />
+        <entry key="app/src/main/res/drawable/ic_padlock.xml" value="0.3489177489177489" />
+        <entry key="app/src/main/res/drawable/ic_plus.xml" value="0.3582222222222222" />
+        <entry key="app/src/main/res/drawable/ic_send.xml" value="0.3582222222222222" />
+        <entry key="app/src/main/res/drawable/ic_up_and_down_arrows.xml" value="0.3582222222222222" />
+        <entry key="app/src/main/res/drawable/ic_user.xml" value="0.3582222222222222" />
+        <entry key="app/src/main/res/drawable/ic_visa.xml" value="0.3582222222222222" />
+        <entry key="app/src/main/res/drawable/re3ctange_box.xml" value="0.3582222222222222" />
+        <entry key="app/src/main/res/drawable/rectange_box.xml" value="0.3582222222222222" />
+        <entry key="app/src/main/res/drawable/strike.xml" value="0.3582222222222222" />
+        <entry key="app/src/main/res/layout/activity_ecommerce.xml" value="0.3490990990990991" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.19954954954954954" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_my_wallet.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.3490990990990991" />
+        <entry key="app/src/main/res/layout/activity_second.xml" value="0.331885460897011" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.3490990990990991" />
+        <entry key="app/src/main/res/layout/activity_shop.xml" value="0.3490990990990991" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.3490990990990991" />
+        <entry key="app/src/main/res/layout/item_product.xml" value="0.3490990990990991" />
+        <entry key="app/src/main/res/layout/product_item.xml" value="0.3490990990990991" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
