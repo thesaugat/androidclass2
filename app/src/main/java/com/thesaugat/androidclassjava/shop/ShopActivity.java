@@ -1,6 +1,7 @@
 package com.thesaugat.androidclassjava.shop;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -18,7 +19,7 @@ public class ShopActivity extends AppCompatActivity {
         setContentView(R.layout.activity_shop);
 
         shopRV = findViewById(R.id.shopRV);
-        shopRV.setLayoutManager(new LinearLayoutManager(this));
+        shopRV.setLayoutManager(new GridLayoutManager(this,2));
         ShopAdapter shopAdapter = new ShopAdapter(DataSeeder.getProductList(), this);
         shopRV.setAdapter(shopAdapter);
     }

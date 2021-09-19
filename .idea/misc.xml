@@ -26,8 +26,13 @@
         <entry key="app/src/main/res/layout/activity_settings.xml" value="0.3490990990990991" />
         <entry key="app/src/main/res/layout/activity_shop.xml" value="0.3490990990990991" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.3490990990990991" />
+        <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.3355855855855856" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.33693693693693694" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.3490990990990991" />
+        <entry key="app/src/main/res/layout/fragment_signup.xml" value="0.3490990990990991" />
         <entry key="app/src/main/res/layout/item_product.xml" value="0.3490990990990991" />
         <entry key="app/src/main/res/layout/product_item.xml" value="0.3490990990990991" />
+        <entry key="app/src/main/res/layout/second_fragment.xml" value="0.3490990990990991" />
       </map>
     </option>
   </component>

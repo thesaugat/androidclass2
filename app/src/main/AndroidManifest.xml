@@ -12,8 +12,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidClassJava">
         <activity
+            android:name=".MyTestActivity"
+            android:exported="true" />
+        <activity
             android:name=".shop.ShopActivity"
-            android:exported="true" >
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".EcommerceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MyWalletActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AndroidClassJava.NOActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.HomeActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AndroidClassJava.NOActionBar" >
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,28 +47,6 @@
             </intent-filter>
 
         </activity>
-        <activity
-            android:name=".EcommerceActivity"
-            android:exported="true"></activity>
-        <activity
-            android:name=".MyWalletActivity"
-            android:exported="true"
-            android:theme="@style/Theme.AndroidClassJava.NOActionBar"></activity>
-        <activity
-            android:name=".SettingsActivity"
-            android:exported="true" />
-        <activity
-            android:name=".home.HomeActivity"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".RegisterActivity"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.AndroidClassJava.NOActionBar" />
         <activity android:name=".SplashActivity" />
     </application>
 

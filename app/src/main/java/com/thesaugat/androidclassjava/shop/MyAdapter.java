@@ -10,35 +10,28 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.squareup.picasso.Picasso;
 import com.thesaugat.androidclassjava.R;
 import com.thesaugat.androidclassjava.data.ProductData;
 
 import java.util.List;
 
-public class ShopAdapter extends RecyclerView.Adapter<ShopAdapter.ShopViewHolder> {
+public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     List<ProductData> productDataList;
-    LayoutInflater layoutInflater;
+    LayoutInflater inflater;
 
-
-    ShopAdapter(List<ProductData> productDataList, Context context) {
+    public MyAdapter(List<ProductData> productDataList, Context context) {
         this.productDataList = productDataList;
-        layoutInflater = LayoutInflater.from(context);
+        inflater = LayoutInflater.from(context);
     }
-
 
     @NonNull
     @Override
-    public ShopViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new ShopViewHolder(layoutInflater.inflate(R.layout.item_product, parent, false));
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        return new ViewHolder(inflater.inflate(R.layout.item_product,parent, false));
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ShopViewHolder holder, int position) {
-        holder.nameTV.setText(productDataList.get(position).name);
-        holder.priceTv.setText(productDataList.get(position).price+"");
-        holder.discountPrice.setText(productDataList.get(position).discountPrice+"");
-        Picasso.get().load(productDataList.get(position).imageUrl).into(holder.productIV);
+    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
 
     }
 
@@ -47,11 +40,10 @@ public class ShopAdapter extends RecyclerView.Adapter<ShopAdapter.ShopViewHolder
         return productDataList.size();
     }
 
-    public class ShopViewHolder extends RecyclerView.ViewHolder {
+    class ViewHolder extends RecyclerView.ViewHolder {
         ImageView productIV;
         TextView nameTV, priceTv, discountPrice, discountPercent;
-
-        public ShopViewHolder(@NonNull View itemView) {
+        public ViewHolder(@NonNull View itemView) {
             super(itemView);
             productIV = itemView.findViewById(R.id.productIV);
             nameTV = itemView.findViewById(R.id.productNameTV);
